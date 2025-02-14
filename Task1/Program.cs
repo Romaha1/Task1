@@ -1,3 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System;
 
-Console.WriteLine("Hello, World!");
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter your first name: ");
+        string firstName = Console.ReadLine();
+
+        Console.Write("Enter your last name: ");
+        string lastName = Console.ReadLine();
+
+        Console.WriteLine($"Your full name is: {firstName} {lastName}");
+    }
+}
